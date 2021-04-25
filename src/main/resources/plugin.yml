@@ -1,0 +1,8 @@
+main: net.skillcode.simpleguiceplugin.SimpleGuicePlugin
+name: SimpleGuicePlugin
+version: 1.0
+author: SkillCode
+commands:
+  build:
+    aliases:
+      - buildmode

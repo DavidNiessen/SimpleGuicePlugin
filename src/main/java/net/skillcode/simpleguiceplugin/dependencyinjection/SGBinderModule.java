@@ -42,7 +42,7 @@ public class SGBinderModule extends AbstractModule implements TypeListener {
     /**
      * Calls methods annotated with @PostConstruct when the class is instantiated.
      *
-     * @see <a href="http://google.com">http://google.com</a>
+     * @see <a href="https://google.github.io/guice/api-docs/4.1/javadoc/com/google/inject/spi/TypeListener.html">https://google.github.io/guice/api-docs/4.1/javadoc/com/google/inject/spi/TypeListener.html</a>
      */
     @Override
     public <I> void hear(final @NotNull TypeLiteral<I> typeLiteral, final @NotNull TypeEncounter<I> typeEncounter) {
